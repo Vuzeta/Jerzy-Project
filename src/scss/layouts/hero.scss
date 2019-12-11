@@ -1,0 +1,65 @@
+.hero {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100vh;
+
+  &__image {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/hero.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    &--overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.17) 21%,
+        rgba(0, 0, 0, 0.5) 80%
+      );
+    }
+  }
+  &__title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    font-size: $font-size-XL;
+    word-wrap: break-word;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: $spacing-normal;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+
+  &__description {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    width: 95%;
+    padding: 10px 5px;
+    transform: translateX(-46%);
+    color: #2e2e2e;
+    text-align: left;
+    line-height: 30px;
+    font-size: $font-size-medium-large - 0.2rem;
+    background-color: rgba(172, 197, 54, 0.9);
+    z-index: 1;
+    padding: 20px;
+  }
+}
