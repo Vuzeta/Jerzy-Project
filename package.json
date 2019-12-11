@@ -1,9 +1,9 @@
 {
-  "name": "Jerzy-Rekuperacja",
+  "name": "Jerzy-Project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://vuzeta.github.io/Jerzy-Rekuperacja/",
+  "homepage": "https://vuzeta.github.io/Jerzy-Project/",
   "scripts": {
     "predeploy": "npm run prod",
     "deploy": "gh-pages -d build",
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vuzeta/Jerzy-Rekuperacja.git"
+    "url": "git+https://github.com/Vuzeta/Jerzy-Project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vuzeta/Jerzy-Rekuperacja/issues"
+    "url": "https://github.com/Vuzeta/Jerzy-Project/issues"
   },
   "browserslist": "> 0.5%",
   "devDependencies": {
