@@ -50,15 +50,14 @@
 
   &__description {
     position: absolute;
-    bottom: 15%;
-    left: 50%;
-    width: 95%;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
     padding: 10px 5px;
-    transform: translateX(-46%);
     color: #2e2e2e;
     text-align: left;
     line-height: 30px;
-    font-size: $font-size-medium-large - 0.2rem;
+    font-size: $font-size-medium;
     background-color: rgba(172, 197, 54, 0.9);
     z-index: 1;
     padding: 20px;
