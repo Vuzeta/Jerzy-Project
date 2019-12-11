@@ -37,7 +37,7 @@
   transition: all 0.375s;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding-top: 100px;
   background: $color-eco;
 
   @include mq(large) {
@@ -87,7 +87,7 @@
 
   &__link {
     color: $color-white;
-    font-size: $font-size-medium-large;
+    font-size: $font-size-medium;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
